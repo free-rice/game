@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Free Rice Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" href="freerice_logo.png"> 
+    </head>
+    
+    <body>
+        <header id="navbar">
+            <img src="Freerice.jpg" alt="Freerice" width="345" height="100" style="vertical-align:middle">
+        </header>
+        <div class="timer">
+            <p id="countdown">10 : 00</p>
+            
+        </div>
+        <div class="home-box custom-box">
+            <h3>Instruction: </h3>
+            <p>No instruction yet </p>
+            <button type="button" class="btn" onclick="startQuiz()">Start Game!</button>
+        </div>
+
+        <div class="quiz-box custom-box hide">
+            <!-- <div class="question-number">
+                Question 1 of 5
+            </div> -->
+            <div class="question-text">
+
+            </div>
+            <div class="option-container">
+
+            </div>
+            <div class="next-question-btn">
+                <button type="button" class="btn" onclick="next()">Next</button>
+            </div>
+            <div class="answers-indicator">
+
+            </div>
+        </div>
+
+        <div class="result-box custom-box hide">
+            <h1>Result</h1>
+            <h2>Your score is  <span class="percentage"></span> !</h2>
+            
+                    
+                
+            
+            <a href="freerice.html">Try Again</a>
+            <!-- <button type="button" class="btn" onclick="tryAgain()">Try Again</button> -->
+            <!-- <button type="button" class="btn" onclick=" location.href='index.html' ">Go To Home</button> -->
+        </div>
+
+
+    <script src="quiz.js"></script>
+    <script src="quiz_func.js"></script>
+    </body>
