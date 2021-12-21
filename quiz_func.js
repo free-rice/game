@@ -55,12 +55,12 @@ function updateCountdown()
 // push the questions into availableQuestions Array
 function setAvailableQuestions()
 {
-//     const totalQuestion = quiz.length;
+    const totalQuestion = quiz.length;
     
-//     for (let i=0; i<totalQuestion; i++)
-//     {
+    for (let i=0; i<totalQuestion; i++)
+    {
         availableQuestions.push(quiz[i]);
-//     }
+    }
 }
 
 //set the question number, qna
@@ -143,14 +143,14 @@ function unclickableOptions()
 
 function next()
 {
-//     if (questionCounter === quiz.length)
-//     {
-//         quizOver();
-//     }
-//     else
-//     {
-    getNewQuestion();
-//     }
+    if (questionCounter === quiz.length)
+    {
+        quizOver();
+    }
+    else
+    {
+        getNewQuestion();
+    }
 }
 
 function quizOver()
