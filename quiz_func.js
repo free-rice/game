@@ -70,8 +70,7 @@ function getNewQuestion()
     // questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + quiz.length;
 
     //set question text
-    //const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
-    const questionIndex = availableQuestions[questioncounter++ % availableQuestions.length)];
+    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
     currentQuestion = questionIndex;
     questionText.innerHTML = currentQuestion.q;
     //get the position of question index from available question array
