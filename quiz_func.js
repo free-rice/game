@@ -7,7 +7,7 @@ const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
 
-const startingMinutes = 10;
+const startingMinutes = 7;
 let time = startingMinutes * 60;
 const countdownEl = document.getElementById("countdown");
 
